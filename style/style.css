@@ -158,3 +158,30 @@ h2{
     text-decoration: none !important;
     cursor: default;
 }
+/* media query */
+@media screen and (max-width:800px){
+    .navigation-links{
+        width: 84%;
+    }
+    .menu-nav{
+        width: 77%;
+    }
+    .logo{
+        width: 10%;
+        margin-right: 0rem;
+    }
+    .user-account{
+        width: 15%;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .menu-nav-items{
+        margin-left: -10px;
+    }
+    .menu-nav-items li{
+        margin-right: 5px;
+    }
+    .user-account li{
+        margin-right: 10px;
+    }
+}
